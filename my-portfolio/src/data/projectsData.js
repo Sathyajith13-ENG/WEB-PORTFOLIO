@@ -2,53 +2,67 @@
 
 const projectsData = [
   {
-    title: "Explore",
-    subtitle: "Data Migration Platform",
-    role: "Full Stack Developer",
-    period: "Jul 2025 – Present",
-    metrics: [
-      { value: "1M+", label: "Records Streamed" },
-      { value: "60%", label: "Manual Effort Cut" },
-      { value: "35%", label: "Error Reduction" }
-    ],
+    title: "Fake News Detection System",
+    subtitle: "Machine Learning & Natural Language Processing Web Application",
+    role: "Python Developer / Machine Learning",
+    period: "ML & NLP",
+    github: "https://github.com/Sathyajith13-ENG/Fake-News-Detection.git",
     bullets: [
-      "Architected a high-performance data migration platform using Spring Boot and Apache Kafka for event-driven, asynchronous streaming, processing 1M+ records and cutting manual migration effort by 60%.",
-      "Implemented Spring JDBC with MySQL for optimized bulk data persistence and transaction management; enforced Role-Based Access Control (RBAC) with a full audit trail via Spring Security.",
-      "Delivered a responsive React.js and Tailwind CSS frontend for real-time migration monitoring, reducing operator errors by 35%."
+      "Developed a machine learning-based application to classify news articles as fake or real using Natural Language Processing (NLP) techniques.",
+      "Implemented text preprocessing and feature extraction techniques to transform unstructured news content into machine learning-ready data.",
+      "Applied Scikit-learn classification models to train and evaluate the fake news detection system.",
+      "Integrated the machine learning workflow with Flask and Streamlit to provide an interactive interface for making real-time predictions."
     ],
     technologies: [
-      "Java",
-      "Spring Boot",
-      "Apache Kafka",
-      "MySQL",
-      "React.js",
-      "Tailwind CSS",
-      "Spring JDBC",
-      "Spring Security"
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NLP",
+      "Flask",
+      "Streamlit",
+      "TF-IDF"
     ]
   },
   {
-    title: "Reports",
-    subtitle: "Business Intelligence and Reporting Platform",
-    role: "Full Stack Developer",
-    period: "Feb 2026 – Present",
-    metrics: [
-      { value: "100%", label: "Reporting Automated" },
-      { value: "40%", label: "Query Time Cut" },
-      { value: "3", label: "Departments Served" }
-    ],
+    title: "Sentiment Analysis of ChatGPT Reviews",
+    subtitle: "Natural Language Processing & Review Sentiment Classification",
+    role: "Python Developer / Data Analyst",
+    period: "NLP & Data Analytics",
+    github: null,
     bullets: [
-      "Built a business intelligence reporting system using JasperReports for automated PDF and tabular report generation, eliminating 100% of manual reporting effort across 3 departments.",
-      "Integrated ClickHouse (OLAP columnar database) for analytical queries on large datasets, cutting average report generation time by 40%.",
-      "Secured the platform with JWT-based authentication via Spring Security and built interactive dashboards using React.js and Spring Boot RESTful APIs for real-time business insights."
+      "Built an end-to-end Natural Language Processing application to classify ChatGPT reviews into positive, neutral, and negative sentiment categories.",
+      "Performed text preprocessing and feature extraction using Python and Scikit-learn for sentiment classification.",
+      "Used Pandas for data processing and systematic analysis of large review datasets.",
+      "Designed visualizations to present sentiment distribution and analytical findings clearly."
     ],
     technologies: [
-      "Spring Boot",
-      "Spring Security",
-      "JWT",
-      "JasperReports",
-      "ClickHouse",
-      "React.js"
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NLP",
+      "Flask",
+      "Streamlit",
+      "Data Visualization"
+    ]
+  },
+  {
+    title: "AI-Based Crime Pattern Forecasting System",
+    subtitle: "Predictive Analytics & Deep Learning Forecasting Web Application",
+    role: "Python / Deep Learning Developer",
+    period: "TensorFlow & Flask",
+    github: null,
+    bullets: [
+      "Developed a Flask-based web application to forecast crime rate and crime status based on user-selected input parameters.",
+      "Applied TensorFlow-based machine learning models to analyze crime data patterns and generate predictive insights.",
+      "Integrated the trained machine learning model with the Flask application to deliver predictions through an intuitive web-based interface."
+    ],
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "Deep Learning",
+      "Flask",
+      "Data Modeling",
+      "Predictive Analytics"
     ]
   }
 ];

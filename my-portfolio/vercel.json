@@ -7,7 +7,7 @@
   ],
   "headers": [
     {
-      "source": "/Hariharasudhan_M_Resume.pdf",
+      "source": "/Sathyajith_K_Resume.pdf",
       "headers": [
         {
           "key": "Content-Type",
@@ -15,7 +15,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"Hariharasudhan_M_Resume.pdf\""
+          "value": "attachment; filename=\"Sathyajith_K_Resume.pdf\""
         },
         {
           "key": "Cache-Control",
@@ -32,7 +32,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=\"Hariharasudhan_M_Resume.pdf\""
+          "value": "attachment; filename=\"Sathyajith_K_Resume.pdf\""
         }
       ]
     }
