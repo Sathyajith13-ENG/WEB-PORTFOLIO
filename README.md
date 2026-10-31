@@ -89,7 +89,7 @@ The output will be placed in `my-portfolio/build`.
 ## 🌐 Deploying to Vercel
 
 1. Log in to [Vercel](https://vercel.com) and click **"Add New" > "Project"**.
-2. Connect and import your GitHub repository: `Sathyajith13-ENG/WEB-PORTFOLIO`.
+2. Connect and import your GitHub repository: [                ]
 3. Under **Build and Output Settings**:
    - **Root Directory:** Click "Edit" and select `my-portfolio` (since the React app resides in the `my-portfolio` folder).
    - **Framework Preset:** `Create React App`
